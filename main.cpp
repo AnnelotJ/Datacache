@@ -17,12 +17,11 @@ int main(){
 
     std::cout<< inputString;
 
-    if (inputString.find("STORE")){
-        std::cout<<"STORE\n";
+    if (inputString.contains("STORE")){
+
 
     }
-    else if (inputString.find("RETRIEVE")){
-        std::cout<<"RETRIEVE";
+    else if (inputString.contains("RETRIEVE")){
 
     }
     else{
